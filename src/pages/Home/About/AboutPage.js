@@ -3,7 +3,8 @@ import { MainContainerAbout } from "./AboutStyled"
 
 const AboutPage = () => {
     return (
-        <MainContainerAbout>
+        
+        <MainContainerAbout id="sobre">
             AboutPage
         </MainContainerAbout>
     )

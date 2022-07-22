@@ -3,9 +3,11 @@ import { MainContainerProjects } from "./ProjectsStyled"
 
 const ProjectPage = () => {
     return (
-        <MainContainerProjects>
-            ProjectPage
-        </MainContainerProjects>
+        <div id="projetos">
+            <MainContainerProjects>
+                ProjectPage
+            </MainContainerProjects>
+        </div>
     )
 }
 
