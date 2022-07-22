@@ -2,10 +2,13 @@ import React from "react"
 import { MainContainerContacts } from "./ContactStyled"
 
 const ContactPage = () => {
+
     return (
-        <MainContainerContacts>
-            ContactPage
-        </MainContainerContacts>
+        <div id="contato">
+            <MainContainerContacts>
+                Contato
+            </MainContainerContacts>
+        </div>
     )
 }
 
