@@ -1,26 +1,33 @@
 import styled from "styled-components"
 
-export const NavBar = styled.ul`  
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        flex-flow: row nowrap;
-    
+export const ButtonList = styled.button`
+  margin-top: -50px;
+  margin-left: 180px;
+  background: #006877;
+  border: 1px solid #006877;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center; 
+  width: 120px;
 
-    li {
-        font-size: 30px;
-        padding: 10px 10px ;
-    }
 
-    @media (max-width: 768px) {        
-        flex-flow: column nowrap;
-        position: relative;
-        right: 0;
-        height: 70vh;
-        background-color: pink;
-        color: white;
-        transform: ${({open}) => open ? "translateX(0)" : "translateX(100%)"};
-        transition: transform 0.3 ease-in-out;
-    }
+&:hover{
+  background-color: #ff9800;
+  color: #FFFFFF;
+  border: 1px solid #ff9800;
+}
 
+@media (max-width: 768px) {
+width: 210px;
+height: 100px;
+}
 `
