@@ -1,19 +1,20 @@
 import React from "react"
 import styled from "styled-components"
-import ContactPage from "../Contact/ContactPage"
+import { ButtonList } from "./RightNavBarStyled"
 
 
 const NavBar = styled.ul`  
         display: flex;
-        justify-content: space-around;
         list-style: none;
-        flex-flow: row nowrap;
-    
 
-    li {
-        text-align: start;
+    li {     
         font-size: 30px;
-        padding: 10px 10px ;
+        padding: 10px ;
+
+        @media (max-width: 768px) {
+            margin-left: -200px;
+            margin-top: 80px;
+        }
     }
 
     @media (max-width: 768px) {     
@@ -42,9 +43,9 @@ const RightNavBar = ({ open }) => {
     return (
         <div>
             <NavBar open={open} >
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato" >Contato</a></li>
+                <li><a href="#sobre"><ButtonList>Sobre</ButtonList></a></li>
+                <li><a href="#projetos"><ButtonList>Projetos</ButtonList></a></li>
+                <li><a href="#contato"><ButtonList>Contato</ButtonList></a></li>
             </NavBar>         
         </div>
 

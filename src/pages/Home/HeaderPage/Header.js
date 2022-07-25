@@ -1,13 +1,13 @@
 import React from "react"
 import Hamburguer from "./Hamburguer"
-import { MainHeader } from "./HeaderStyled"
+import { MainHeader , Tittle} from "./HeaderStyled"
 
 
 const Header = () => {
     return (
         <div>
             <MainHeader>
-                <h1>Max</h1>
+                <Tittle>Seja bem vindo</Tittle>
                 <Hamburguer />
             </MainHeader>
             

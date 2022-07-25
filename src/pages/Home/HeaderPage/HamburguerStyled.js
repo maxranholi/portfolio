@@ -13,6 +13,7 @@ display: none;
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
+    padding-right: 20px;
 }
 
  div{
