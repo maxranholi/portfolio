@@ -6,8 +6,8 @@ import GithubLink from "../../../Assets/githubLink.svg"
 const ProjectPage = () => {
     return (
         <div id="projetos">
-            <MainContainerProjects>
-                <Tittle>Projetos</Tittle>
+            <Tittle>Projetos</Tittle>
+            <MainContainerProjects>             
                 <Cards>
                     <CardProject>
                         <CommingSoonCard><h4>Em breve, novidades!</h4></CommingSoonCard>

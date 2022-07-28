@@ -27,7 +27,7 @@ line-height: 3rem;
 color: #10193c;
 font-size: 2.5rem;
 font-weight: lighter;
-margin: 2rem;
+
 
 h3{
     line-height: 3rem;
@@ -38,7 +38,7 @@ text-align: center ;
 }
 
 @media (max-width: 768px) {
-    margin: 0.8rem;
+    margin: 0.9rem;
 }
 `
 export const Image = styled.img`

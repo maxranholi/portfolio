@@ -1,11 +1,14 @@
 import React from "react"
 import styled from "styled-components"
-import { ButtonList } from "./RightNavBarStyled"
 
 
 const NavBar = styled.ul`  
         display: flex;
         list-style: none;
+        gap: 6rem;
+        @media (max-width: 768px) {
+           gap: 0rem;
+        }
 
     li {     
         font-size: 25px;
@@ -15,6 +18,16 @@ const NavBar = styled.ul`
             margin-top: 80px;
         }
     }
+    a {
+            font-size: 3rem;
+            text-decoration: none;
+            color: #10193c;
+
+        @media (max-width: 768px) {
+            margin-left: 175px;
+            margin-top: 80px;
+        }            
+        }
 
     @media (max-width: 768px) {     
         flex-flow: column nowrap;
@@ -22,7 +35,7 @@ const NavBar = styled.ul`
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: -16px;
         right: 0;
-        height: 50vh;
+        height: 60vh;
         width: 35vw;
         color: white;
         transition:transform 0.3s ease-in-out;  
@@ -42,10 +55,11 @@ const RightNavBar = ({ open }) => {
     return (
         <div>
             <NavBar open={open} >
-                <li><a href="#sobre"><ButtonList>Sobre</ButtonList></a></li>
-                <li><a href="#projetos"><ButtonList>Projetos</ButtonList></a></li>
-                <li><a href="#contato"><ButtonList>Contato</ButtonList></a></li>
-            </NavBar>         
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#contato">Contato</a></li>                
+            </NavBar>
         </div>
 
     )

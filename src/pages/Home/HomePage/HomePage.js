@@ -7,6 +7,7 @@ import AboutPage from "../About/AboutPage"
 import ProjectPage from "../Projects/ProjectsPage"
 import ContactPage from "../Contact/ContactPage"
 import {useNavigate} from "react-router-dom"
+import Tecnologies from "../Tecnologies/Tecnologies"
 
 
 const HomePage = () => {
@@ -16,7 +17,7 @@ const HomePage = () => {
         navigate("/curriculo")
     }
     return (
-        <div>           
+        <div id="#inicio">           
             <Header /> 
             <MainContainer>
                 <Tittles>
@@ -31,7 +32,8 @@ const HomePage = () => {
             </MainContainer>
             <AboutPage />
             <ProjectPage />
-            <ContactPage />                                     
+            <Tecnologies /> 
+            <ContactPage />                                               
         </div>
     )
 }

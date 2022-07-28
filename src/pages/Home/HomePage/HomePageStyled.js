@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const MainContainer = styled.div`
 box-sizing: border-box;
-height: 90vh;
+height: 100vh;
 width: 100%;
 background-color: #f3f4f6;
 display: flex;
@@ -17,7 +17,7 @@ justify-content: flex-end;
 export const Tittles = styled.div`
 box-sizing: border-box;
  @media (max-width: 768px) {
-    margin-top: -90px;
+    
  }
 `
 export const Tittle = styled.h1`
@@ -39,7 +39,7 @@ font-size: 7rem;
 export const Background = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props.img});
-margin-top: 2rem;
+margin-top: 8rem;
 
 @media (max-width: 768px) { 
     display: none;
@@ -82,7 +82,6 @@ background-image: url(${props => props.img});
 display: none;
 
 @media (max-width: 768px) {
-   margin-top: -2rem;
    display: inline;
    height: 40rem
 }
