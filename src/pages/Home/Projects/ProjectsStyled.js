@@ -9,21 +9,26 @@ flex-direction: column;
 align-items: center;
 line-height: 1rem;
 overflow-x: scroll;
+margin-top: -5rem;
 
 /* &::-webkit-scrollbar{
 width: 0
 } */
 `
 export const Tittle = styled.h2`
-font-size: 60px;
 color: #ff9800;
 font-size: 5rem;
+background-color: #f4f5f6;
+text-align: center;
+line-height: 10rem;
 `
 export const Cards = styled.div`
 display: flex;
-margin-left: 35rem;
+margin-left: 37rem;
 gap: 2rem;
 margin-bottom: 2rem;
+padding-top: 2rem;
+margin-right: 1rem;
 
 @media (max-width: 768px) {
     margin-left: 95rem;
@@ -42,7 +47,7 @@ flex-direction: column;
 
 
 @media (max-width: 768px) {
-    height: 50rem;
+    height: 55rem;
     width: 30rem;
 }
 
@@ -85,6 +90,9 @@ export const Images = styled.div`
 display: flex;
 margin-top: 6rem;
 gap: 2rem;
+@media(max-width: 768px) {
+    margin-top: 10rem;
+}
 `
 
 export const LinkImage = styled.img`

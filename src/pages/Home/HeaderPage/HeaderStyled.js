@@ -10,7 +10,7 @@ justify-content: space-between;
 padding-left: 1rem;
 padding-right: 2rem;
 background-color: #f3f4f6;
-
+position: fixed;
 `
 export const Section = styled.ul`
  display: flex;
