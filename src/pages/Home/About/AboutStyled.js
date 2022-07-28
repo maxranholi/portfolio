@@ -2,7 +2,51 @@ import styled from "styled-components";
 
 export const MainContainerAbout = styled.div`
 box-sizing: border-box;
-height: 100vh;
-width: 100vw;
-background-color: green;
+height: 100%;
+width: 100%;
+background-color: white;
+display: grid;
+grid-template-columns: 33% 67%;
+
+@media (max-width: 768px) {
+    display: flex;
+}
+`
+export const Title = styled.h2`
+text-align: center;
+color: #ff9800;
+font-size: 4.5rem;
+line-height: 2rem;
+`
+export const Titles = styled.div`
+
+`
+
+export const Text = styled.h4`
+line-height: 3rem;
+color: #10193c;
+font-size: 2.5rem;
+font-weight: lighter;
+margin: 2rem;
+
+h3{
+    line-height: 3rem;
+color: #10193c;
+font-size: 2.5rem;
+font-weight: lighter;
+text-align: center ;
+}
+
+@media (max-width: 768px) {
+    margin: 0.8rem;
+}
+`
+export const Image = styled.img`
+background-image: url(${props => props.img});
+height: 55rem;
+margin: 2rem;
+
+@media (max-width: 768px) {
+    display: none;
+}
 `

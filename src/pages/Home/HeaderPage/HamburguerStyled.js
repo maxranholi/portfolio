@@ -4,8 +4,8 @@ export const BurguerStyled = styled.div`
 width: 2rem;
 height: 2rem;
 position: fixed;
-top: 15px;
-right: 20px;
+top: 28px;
+right: 5px;
 z-index: 20;
 display: none;
 
