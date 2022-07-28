@@ -8,8 +8,7 @@ const NavBar = styled.ul`
         list-style: none;
 
     li {     
-        font-size: 30px;
-        padding: 10px ;
+        font-size: 25px;
 
         @media (max-width: 768px) {
             margin-left: -200px;
@@ -23,8 +22,8 @@ const NavBar = styled.ul`
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: -16px;
         right: 0;
-        height: 70vh;
-        width: 60vw;
+        height: 50vh;
+        width: 35vw;
         color: white;
         transition:transform 0.3s ease-in-out;  
         background: rgba( 255, 255, 255, 0.35 );

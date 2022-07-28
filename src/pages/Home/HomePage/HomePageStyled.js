@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
 box-sizing: border-box;
 height: 90vh;
-width: 100vw;
+width: 100%;
 background-color: #f3f4f6;
 display: flex;
-gap: 65px;
+gap: 4.5rem;
 justify-content: flex-end;
 @media (max-width: 768px){
   height: 100%;
@@ -22,9 +22,9 @@ box-sizing: border-box;
 `
 export const Tittle = styled.h1`
 box-sizing: border-box;
-margin-top: 100px;
+margin-top: 10rem;
 color: #10193c;
-font-size: 70px;
+font-size: 7rem;
  h3 {
     font-size: 30px;
     @media (max-width: 768px) {
@@ -39,7 +39,7 @@ font-size: 70px;
 export const Background = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props.img});
-margin-top: 20px;
+margin-top: 2rem;
 
 @media (max-width: 768px) { 
     display: none;
@@ -52,7 +52,7 @@ margin-top: -50px;
 margin-left: 85px;
   background: #ff9800;
   border: 1px solid #ff9800;
-  border-radius: 6px;
+  border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
   box-sizing: border-box;
   color: #FFFFFF;
@@ -82,8 +82,8 @@ background-image: url(${props => props.img});
 display: none;
 
 @media (max-width: 768px) {
-   margin-top: -50px;
+   margin-top: -2rem;
    display: inline;
-   height: 400px;
+   height: 40rem
 }
 `
