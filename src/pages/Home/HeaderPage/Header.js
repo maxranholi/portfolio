@@ -5,12 +5,11 @@ import { MainHeader , Tittle} from "./HeaderStyled"
 
 const Header = () => {
     return (
-        <div>
+        <div id="inicio">
             <MainHeader>
                 <Tittle>Seja bem vindo</Tittle>
                 <Hamburguer />
-            </MainHeader>
-            
+            </MainHeader>          
         </div>
 
     )

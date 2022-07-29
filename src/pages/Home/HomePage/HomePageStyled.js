@@ -17,7 +17,7 @@ justify-content: flex-end;
 export const Tittles = styled.div`
 box-sizing: border-box;
  @media (max-width: 768px) {
-    
+   margin-top: -8rem;
  }
 `
 export const Tittle = styled.h1`
