@@ -11,6 +11,9 @@ padding-left: 1rem;
 padding-right: 2rem;
 background-color: #f3f4f6;
 position: fixed;
+@media (max-width: 768px) {
+        position: sticky;
+    }
 `
 export const Section = styled.ul`
  display: flex;

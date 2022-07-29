@@ -19,13 +19,14 @@ const NavBar = styled.ul`
         }
     }
     a {
-            font-size: 3rem;
+            font-size: 2.5rem;
             text-decoration: none;
             color: #10193c;
 
         @media (max-width: 768px) {
             margin-left: 175px;
             margin-top: 80px;
+            font-size: 2rem;
         }            
         }
 
@@ -35,7 +36,7 @@ const NavBar = styled.ul`
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: -16px;
         right: 0;
-        height: 60vh;
+        height: 70vh;
         width: 35vw;
         color: white;
         transition:transform 0.3s ease-in-out;  
@@ -55,10 +56,11 @@ const RightNavBar = ({ open }) => {
     return (
         <div>
             <NavBar open={open} >
+                <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#tecnologias">Tecnologias</a></li>
-                <li><a href="#contato">Contato</a></li>                
+                <li><a href="#contato">Contato</a></li>
             </NavBar>
         </div>
 

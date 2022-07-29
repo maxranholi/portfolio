@@ -17,7 +17,7 @@ const HomePage = () => {
         navigate("/curriculo")
     }
     return (
-        <div id="#inicio">           
+        <div>           
             <Header /> 
             <MainContainer>
                 <Tittles>
