@@ -36,7 +36,7 @@ const NavBar = styled.ul`
         transform:${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: -16px;
         right: 0;
-        height: 70vh;
+        height: 75vh;
         width: 35vw;
         color: white;
         transition:transform 0.3s ease-in-out;  
