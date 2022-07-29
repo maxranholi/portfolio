@@ -1,27 +1,31 @@
 import React, { useState } from "react"
-import { Container, Tittle } from "./TecnologiesStyled"
+import { Container, Tittle , Description} from "./TecnologiesStyled"
 
 const Tecnologies = () => {
-    const [css , setCss] = useState("é pra estilizar")
-    const [js , setJs] = useState("é pra programar")
-    const [sc , setSc] = useState("é pra estilizar mais maneiro")
+    const [css, setCss] = useState(false)
+    const [js, setJs] = useState(false)
+    const [sc, setSc] = useState(false)
 
-    const onChangeCss = (event) => {
-        setCss(event.target.value)
-    }
+return (
+    <div id="tecnologias">
+        <Container>
+            <Tittle>Tecnologias</Tittle>
+            <Description>
+            <button onClick={() => setCss(!css)}>CSS</button>
+            
+                {css && <h2>css descrição</h2>}
+           
+            <button onClick={()=> setJs(!js)}>JavaScript</button>
 
+            {js && <h2>Javascript descrição</h2>}
 
-console.log(css)
-    return (
-        <div id="tecnologias">
-            <Container>
-                <Tittle>Tecnologias</Tittle>
-                <button value={css} onChange={onChangeCss}>CSS</button>
-                <button>JavaScript</button>
-                <button>Styled-Components</button>
-            </Container>
-        </div>
-    )
+            <button onClick={() => setSc(!sc)} >Styled-Components</button>
+
+            {sc && <h2>styled descrição</h2>}
+            </Description>
+        </Container>
+    </div>
+)
 }
 
 export default Tecnologies

@@ -9,3 +9,9 @@ color: #ff9800;
 font-size: 5rem;
 text-align: center;
 `
+export const Description = styled.div`
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+gap: 30px;
+`
