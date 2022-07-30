@@ -15,3 +15,14 @@ align-items: flex-start;
 flex-direction: column;
 gap: 30px;
 `
+export const TecDescription = styled.div`
+display: flex;
+background-color: #ffbc5b;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+
+
+button {
+    height: 70px;
+}
+`
