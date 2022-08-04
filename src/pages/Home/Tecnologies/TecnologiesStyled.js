@@ -32,13 +32,14 @@ width: 80rem;
 flex-wrap: wrap;
 margin-left: 2rem;
 margin-bottom: 3rem;
+border: 1px black solid;
 
 @media(max-width: 768px) {
-    height: 50rem;
-    width: 30rem;
+    height: 35rem;
+    width: 40rem;
     gap: 3rem;
     align-items: center;
-    margin-left: 5rem;
+    justify-content: center;
 }
 `
 export const ImageTec = styled.img`
@@ -52,8 +53,9 @@ opacity: 0.5;
 transition: 0.3s;
 
 @media(max-width: 768px) {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
+   
 }
 
 
