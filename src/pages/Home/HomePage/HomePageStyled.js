@@ -66,9 +66,17 @@ margin-left: 85px;
   text-align: center; 
   width: 100px;
 
+  a{
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+  color: #ff9800;
+}
+  }
+
 &:hover{
   background-color: white;
-  color: #ff9800;
 }
 
 @media (max-width: 768px) {

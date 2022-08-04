@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const MainHeader = styled.nav`
+z-index: 1000;
 box-sizing: border-box;
 width: 100%;
 height: 10vh;
