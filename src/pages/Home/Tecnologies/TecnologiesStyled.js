@@ -39,6 +39,7 @@ margin-bottom: 3rem;
     gap: 3rem;
     align-items: center;
     justify-content: center;
+    margin-right: 1rem;
 }
 `
 export const ImageTec = styled.img`
@@ -87,6 +88,6 @@ margin-bottom: 3rem;
     height: 30rem;
     width: 30rem;
     font-size: 2rem;
-    /* margin-top: 15rem; */
+    color:#10193c;
 }
 `
