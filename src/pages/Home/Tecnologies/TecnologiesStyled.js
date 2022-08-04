@@ -34,11 +34,12 @@ margin-left: 2rem;
 margin-bottom: 3rem;
 
 @media(max-width: 768px) {
-    height: 50rem;
-    width: 30rem;
+    height: 35rem;
+    width: 40rem;
     gap: 3rem;
     align-items: center;
-    margin-left: 5rem;
+    justify-content: center;
+    margin-right: 1rem;
 }
 `
 export const ImageTec = styled.img`
@@ -52,8 +53,9 @@ opacity: 0.5;
 transition: 0.3s;
 
 @media(max-width: 768px) {
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
+   
 }
 
 
@@ -86,6 +88,6 @@ margin-bottom: 3rem;
     height: 30rem;
     width: 30rem;
     font-size: 2rem;
-    /* margin-top: 15rem; */
+    color:#10193c;
 }
 `
