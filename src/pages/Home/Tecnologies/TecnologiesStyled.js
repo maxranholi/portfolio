@@ -36,10 +36,10 @@ margin-bottom: 3rem;
 @media(max-width: 768px) {
     height: 35rem;
     width: 40rem;
-    gap: 3rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 `
 export const ImageTec = styled.img`
