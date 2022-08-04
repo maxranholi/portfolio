@@ -8,6 +8,7 @@ import ProjectPage from "../Projects/ProjectsPage"
 import ContactPage from "../Contact/ContactPage"
 import {useNavigate} from "react-router-dom"
 import Tecnologies from "../Tecnologies/Tecnologies"
+import CV from "../../../Assets/MaximilianoRanholi.CV.png"
 
 
 const HomePage = () => {
@@ -25,7 +26,7 @@ const HomePage = () => {
                    Maximiliano <br></br> Ranholi
                    <h3>Desenvolvedor front-end</h3>
                 </Tittle>
-                <ButtonCv onClick={()=> goToResume(navigate)}>Currículo</ButtonCv>
+                <ButtonCv><a type="download" href={CV}>Currículo</a></ButtonCv>
                 </Tittles>  
                    <Background src={fundoreal}/>
                    <ImageMobile src={fundoBotton}/>

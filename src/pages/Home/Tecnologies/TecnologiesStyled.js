@@ -17,12 +17,25 @@ gap: 30px;
 `
 export const TecDescription = styled.div`
 display: flex;
-background-color: #ffbc5b;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 
 
 button {
     height: 70px;
+}
+`
+export const ImageTec = styled.img`
+background-image: url(${props => props});
+cursor: pointer;
+height: 10rem;
+width: 10rem;
+opacity: 0.3;
+transition: 0.3s;
+
+&:hover {
+    opacity: 1;
+    height: 14rem;
+    width: 14rem;
 }
 `

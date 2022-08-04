@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+  *{
+    scrollbar-width: none;
+  }
   body {
     font-size: 1.6rem;
     margin: 0;
