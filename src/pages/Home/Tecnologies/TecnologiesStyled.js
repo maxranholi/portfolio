@@ -32,7 +32,6 @@ width: 80rem;
 flex-wrap: wrap;
 margin-left: 2rem;
 margin-bottom: 3rem;
-border: 1px black solid;
 
 @media(max-width: 768px) {
     height: 35rem;
