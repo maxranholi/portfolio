@@ -12,7 +12,7 @@ margin: 2rem;
 border-radius: 5px;
 
 @media (max-width: 768px) {
-   width: 35rem;
+   width: 90%;
    margin-bottom: 5rem;
 }
 `
