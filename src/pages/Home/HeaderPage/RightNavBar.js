@@ -26,6 +26,8 @@ const NavBar = styled.ul`
 
             &:hover{
                 font-size: 3rem;
+                color: #ff9800;
+                font-weight: bold;
             }
 
         @media (max-width: 768px) {
