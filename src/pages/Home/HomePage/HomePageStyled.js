@@ -91,6 +91,6 @@ display: none;
 
 @media (max-width: 768px) {
    display: inline;
-   height: 40rem
+   height: 35rem
 }
 `
