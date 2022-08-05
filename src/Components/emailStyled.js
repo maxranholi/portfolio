@@ -85,13 +85,10 @@ box-sizing: border-box;
   a{
     text-decoration: none;
     color: white;
-
-    &:hover{
-  color: #ff9800;
 }
-  }
-
-&:hover{
+  
+&:hover {
   background-color: white;
+  color: #ff9800;  
 }
 `

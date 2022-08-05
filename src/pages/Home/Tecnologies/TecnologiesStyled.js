@@ -18,6 +18,8 @@ text-align: center;
 export const Description = styled.div`
 display: flex;
 align-items: center;
+width: 100%;
+gap: 10rem;
 
 @media(max-width: 768px) {
     flex-direction: column;
@@ -28,7 +30,7 @@ box-sizing: border-box;
 display: flex;
 gap: 1rem;
 height: 40rem;
-width: 80rem;
+width: 45%;
 flex-wrap: wrap;
 margin-left: 2rem;
 margin-bottom: 3rem;
@@ -46,10 +48,10 @@ export const ImageTec = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props});
 cursor: pointer;
-height: 16rem;
-width: 16rem;
+height: 12rem;
+width: 12rem;
 opacity: 0.5;
-//filter: brightness(40%) sepia() hue-rotate(200deg) saturate(1600%) contrast(0.8);
+//filter: brightness(40%) sepia() hue-rotate(10deg) saturate(600%) contrast(0.8);
 transition: 0.3s;
 
 @media(max-width: 768px) {
@@ -62,8 +64,8 @@ transition: 0.3s;
 &:hover {
     filter: none;
     opacity: 1;
-    height: 20rem;
-    width: 20rem;
+    height: 16rem;
+    width: 16rem;
 
     @media(max-width: 768px) {
     height: 12rem;
@@ -77,7 +79,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 40rem;
-width: 50rem;
+width: 40%;
 color:#10193c;
 font-size: 3.5rem;
 line-height: 4.5rem;

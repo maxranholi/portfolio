@@ -10,10 +10,6 @@ align-items: center;
 line-height: 1rem;
 overflow-x: scroll;
 margin-top: -5rem;
-
-/* &::-webkit-scrollbar{
-width: 0
-} */
 `
 export const Tittle = styled.h2`
 color: #ff9800;
@@ -28,7 +24,6 @@ margin-left: 37rem;
 gap: 2rem;
 margin-bottom: 2rem;
 padding-top: 2rem;
-margin-right: 1rem;
 
 @media (max-width: 768px) {
     margin-left: 95rem;

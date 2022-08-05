@@ -23,9 +23,9 @@ export const Titles = styled.div`
 `
 
 export const Text = styled.h4`
-line-height: 3rem;
+line-height: 2.8rem;
 color: #10193c;
-font-size: 2.7rem;
+font-size: 2.5rem;
 font-weight: lighter;
 
 

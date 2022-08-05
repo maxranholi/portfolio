@@ -66,7 +66,6 @@ const Tecnologies = () => {
                     <Text>
                         <p>{showDescription}</p>
                     </Text>
-
                 </Description>
             </Container>
         </div>
