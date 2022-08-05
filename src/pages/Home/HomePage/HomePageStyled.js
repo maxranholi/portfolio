@@ -69,14 +69,15 @@ margin-left: 85px;
   a{
     text-decoration: none;
     color: white;
-
-    &:hover{
-  color: #ff9800;
 }
-  }
-
-&:hover{
+  
+&:hover {
   background-color: white;
+  
+
+  a {
+    color: #ff9800;
+  }
 }
 
 @media (max-width: 768px) {
