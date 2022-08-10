@@ -6,8 +6,8 @@ height: 100vh;
 width: 100%;
 background-color: #f3f4f6;
 display: flex;
-gap: 4.5rem;
 justify-content: flex-end;
+justify-content: space-between;
 @media (max-width: 768px){
   height: 100%;
     flex-direction: column;
@@ -15,6 +15,7 @@ justify-content: flex-end;
 }
 `
 export const Tittles = styled.div`
+margin-left: 5rem;
 box-sizing: border-box;
  @media (max-width: 768px) {
    margin-top: -8rem;

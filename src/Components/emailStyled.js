@@ -43,11 +43,11 @@ export const Inputs = styled.input`
      height: 2rem;
 
      @media (max-width: 768px) {
-    width: 30rem;
+      width: 105%;
 }
 `
 export const InputMessage = styled.textarea`
- padding: 8px;
+     padding: 8px;
      font-size: 20px;
      border-width: 0px;
      border-color: #CCCCCC;
@@ -60,7 +60,8 @@ export const InputMessage = styled.textarea`
      height: 6rem;
 
      @media (max-width: 768px) {
-    width: 30rem;
+      height: 8rem;
+      width: 105%;
 }
 `
 export const ButtonSend = styled.input`
