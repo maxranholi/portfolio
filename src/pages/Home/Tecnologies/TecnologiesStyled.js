@@ -20,7 +20,6 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 width: 100%;
-gap: 5rem;
 
 @media(max-width: 768px) {
     flex-direction: column;
@@ -35,6 +34,8 @@ height: 40rem;
 width: 45%;
 flex-wrap: wrap;
 margin-left: 2rem;
+margin-bottom: 3rem;
+
 
 @media(max-width: 768px) {
     height: 35rem;
@@ -49,8 +50,8 @@ export const ImageTec = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props});
 cursor: pointer;
-height: 16em;
-width: 16em;
+height: 18em;
+width: 18em;
 opacity: 0.5;
 //filter: brightness(40%) sepia() hue-rotate(10deg) saturate(600%) contrast(0.8);
 transition: 0.3s;
@@ -69,8 +70,8 @@ transition: 0.3s;
 &:hover {
     filter: none;
     opacity: 1;
-    height: 16rem;
-    width: 16rem;
+    height: 22rem;
+    width: 22rem;
 
     @media(max-width: 768px) {
     height: 12rem;

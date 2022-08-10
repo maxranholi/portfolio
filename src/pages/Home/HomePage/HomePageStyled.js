@@ -26,7 +26,11 @@ export const Tittle = styled.h1`
 box-sizing: border-box;
 margin-top: 10rem;
 color: #10193c;
+font-size: 9rem;
+
+@media (max-width: 1367px) {
 font-size: 7rem;
+}
  h3 {
     font-size: 30px;
     @media (max-width: 768px) {
@@ -41,7 +45,7 @@ font-size: 7rem;
 export const Background = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props.img});
-margin-top: 8rem;
+margin-top: 10rem;
 
 @media (max-width: 768px) { 
     display: none;
