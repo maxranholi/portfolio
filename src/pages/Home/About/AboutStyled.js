@@ -5,12 +5,8 @@ box-sizing: border-box;
 height: 100%;
 width: 100%;
 background-color: white;
-display: grid;
-grid-template-columns: 36% 60%;
+display: flex;
 
-@media (max-width: 1366px) {
-    grid-template-columns: 33% 67%;
-}
 
 @media (max-width: 768px) {
     display: flex;
