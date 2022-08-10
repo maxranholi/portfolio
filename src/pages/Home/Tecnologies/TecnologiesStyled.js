@@ -49,8 +49,8 @@ export const ImageTec = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props});
 cursor: pointer;
-height: 15em;
-width: 15em;
+height: 16em;
+width: 16em;
 opacity: 0.5;
 //filter: brightness(40%) sepia() hue-rotate(10deg) saturate(600%) contrast(0.8);
 transition: 0.3s;

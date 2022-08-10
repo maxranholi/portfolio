@@ -19,6 +19,7 @@ margin-left: 5rem;
 box-sizing: border-box;
  @media (max-width: 768px) {
    margin-top: -8rem;
+   margin-left: 0rem;
  }
 `
 export const Tittle = styled.h1`

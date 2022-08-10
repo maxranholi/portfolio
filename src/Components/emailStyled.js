@@ -21,7 +21,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-gap: 1.3rem;
+gap: 1.7rem;
 
 label {
     box-sizing: border-box;
@@ -57,7 +57,7 @@ export const InputMessage = styled.textarea`
      border-radius: 5px;
      box-shadow: 0px 0px 13px rgba(66,66,66,.20);
      width: 40rem;
-     height: 6rem;
+     height: 8rem;
 
      @media (max-width: 768px) {
       height: 8rem;
