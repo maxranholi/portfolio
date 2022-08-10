@@ -24,7 +24,7 @@ export const Section = styled.ul`
 export const Tittle = styled.h3`
 color: #ff9800;
 font-size: 3.5rem;
-margin-left: 50px;
+margin-left: 5rem;
 @media (max-width: 768px) {
         margin-left: 0.4rem;
     }
