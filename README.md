@@ -18,6 +18,7 @@ https://portfolio-maxranholi.vercel.app/
 
 ##
 🖥 Responsividade
+
 • 📱 Mobile ✔
 
 • 🖥 Desktop ✔
