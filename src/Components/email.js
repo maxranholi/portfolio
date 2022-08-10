@@ -23,11 +23,8 @@ const Email = () => {
     return (
         <Container>
             <FormEmail ref={form} onSubmit={sendEmail}>
-                    <label>Nome</label>
                     <Inputs type="text" name="user_name" placeholder="Nome" />               
-                    <label>E-mail</label>
                     <Inputs type="email" name="user_email" placeholder="E-mail" />               
-                <label>Mensagem</label>
                 <InputMessage name="message" placeholder="Mensagem" />
                 <ButtonSend type="submit" value="Enviar" />
             </FormEmail>

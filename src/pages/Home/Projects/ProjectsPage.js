@@ -39,16 +39,6 @@ const ProjectPage = () => {
                             <GitHubLinkImage src={GithubLink} />
                         </Images>
                     </CardProject>
-                    <CardProject>
-                        <CommingSoonCard><h4>Em breve, novidades!</h4></CommingSoonCard>
-                        <h3>Nome do projeto</h3>
-                        <h4>Explicação do projeto</h4>
-                        <h5>Tecnologias usadas: </h5>
-                        <Images>
-                            <LinkImage src={Link} />
-                            <GitHubLinkImage src={GithubLink} />
-                        </Images>
-                    </CardProject>
                 </Cards>
             </MainContainerProjects>
         </div>

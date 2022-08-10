@@ -20,13 +20,11 @@ line-height: 10rem;
 `
 export const Cards = styled.div`
 display: flex;
-margin-left: 37rem;
 gap: 2rem;
-margin-bottom: 2rem;
-padding-top: 2rem;
+margin: 2rem;
 
 @media (max-width: 768px) {
-    margin-left: 95rem;
+    margin-left: 65rem;
 }
 `
 export const CardProject = styled.div`

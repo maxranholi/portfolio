@@ -18,11 +18,13 @@ text-align: center;
 export const Description = styled.div`
 display: flex;
 align-items: center;
+justify-content: space-around;
 width: 100%;
-gap: 10rem;
+gap: 5rem;
 
 @media(max-width: 768px) {
     flex-direction: column;
+    gap: 1rem;
 }
 `
 export const TecDescription = styled.div`
@@ -33,7 +35,6 @@ height: 40rem;
 width: 45%;
 flex-wrap: wrap;
 margin-left: 2rem;
-margin-bottom: 3rem;
 
 @media(max-width: 768px) {
     height: 35rem;
@@ -48,16 +49,20 @@ export const ImageTec = styled.img`
 box-sizing: border-box;
 background-image: url(${props => props});
 cursor: pointer;
-height: 12rem;
-width: 12rem;
+height: 15em;
+width: 15em;
 opacity: 0.5;
 //filter: brightness(40%) sepia() hue-rotate(10deg) saturate(600%) contrast(0.8);
 transition: 0.3s;
 
+@media(max-width: 1367px) {
+    height: 12em;
+    width: 12em;
+}
+
 @media(max-width: 768px) {
     height: 8rem;
     width: 8rem;
-   
 }
 
 
