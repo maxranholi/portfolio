@@ -2,7 +2,7 @@ Portfólio pessoal apresentando algumas das tecnologias que eu uso tais como: Re
 
 ##
 
-🔗 Surge do projeto
+<h2>🔗 Surge do projeto</h2>
 
 https://portfolio-maxranholi.vercel.app/
 
@@ -17,7 +17,7 @@ https://portfolio-maxranholi.vercel.app/
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
 
 ##
-🖥 Responsividade
+<h2>🖥 Responsividade</h2>
 
 • 📱 Mobile ✔
 
@@ -26,7 +26,7 @@ https://portfolio-maxranholi.vercel.app/
 • 💻 Outros dispositivos ⏳
 
 ##
-🖥 Imagens do Projeto
+<h2>🖥 Imagens do Projeto</h2>
 ![3](https://user-images.githubusercontent.com/73243210/184058905-1b908a04-eee9-454e-925e-e7d96efe0aeb.png)
 ![4](https://user-images.githubusercontent.com/73243210/184058906-359c4f70-fbf1-477e-9573-1019bdc1896b.png)
 ![5](https://user-images.githubusercontent.com/73243210/184058908-69ec87fa-0464-4f2e-8668-d14d2e07a8e0.png)
