@@ -31,7 +31,7 @@ https://portfolio-maxranholi.vercel.app/
 • 💻 Outros dispositivos ⏳
 
 
-<h2>🖥 Imagens do Projeto</h2>
+<h2>🖼️ Imagens do Projeto</h2>
 
 ![3](https://user-images.githubusercontent.com/73243210/184058905-1b908a04-eee9-454e-925e-e7d96efe0aeb.png)
 ![4](https://user-images.githubusercontent.com/73243210/184058906-359c4f70-fbf1-477e-9573-1019bdc1896b.png)
