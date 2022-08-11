@@ -6,14 +6,13 @@
 
 Portfólio pessoal apresentando algumas das tecnologias que eu uso tais como: React.Js, HTML, CSS e Styled-Components.
 
-##
+
 
 <h2>🔗 Surge do projeto</h2>
 
 https://portfolio-maxranholi.vercel.app/
 
 
-##
 
  <h2> ⚙ Tecnologias utlizadas</h2>
 
@@ -22,7 +21,7 @@ https://portfolio-maxranholi.vercel.app/
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
 
-##
+
 <h2>🖥 Responsividade</h2>
 
 • 📱 Mobile ✔
@@ -31,7 +30,7 @@ https://portfolio-maxranholi.vercel.app/
 
 • 💻 Outros dispositivos ⏳
 
-##
+
 <h2>🖥 Imagens do Projeto</h2>
 
 ![3](https://user-images.githubusercontent.com/73243210/184058905-1b908a04-eee9-454e-925e-e7d96efe0aeb.png)
