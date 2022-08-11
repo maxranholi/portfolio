@@ -12,6 +12,7 @@ justify-content: space-between;
   height: 100%;
     flex-direction: column;
     justify-content: space-around;
+    gap: 4rem;
 }
 `
 export const Tittles = styled.div`

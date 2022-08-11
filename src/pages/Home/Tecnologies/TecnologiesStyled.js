@@ -57,8 +57,8 @@ opacity: 0.5;
 transition: 0.3s;
 
 @media(max-width: 1367px) {
-    height: 12em;
-    width: 12em;
+    height: 11.5em;
+    width: 11.5em;
 }
 
 @media(max-width: 768px) {
