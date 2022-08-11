@@ -1,5 +1,7 @@
 
-            <h2>Sobre</h2>
+      <div align="center">
+  <h1> Oi! Eu sou o Max, desenvolvedor front-end React JS. </h1>
+</div>
   
 
 
