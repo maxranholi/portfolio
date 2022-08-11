@@ -4,7 +4,7 @@
   
 
 
-Portfólio pessoal apresentando algumas das tecnologias que eu uso tais como: React.Js, HTML, CSS e Styled-Components.
+Portfólio pessoal apresentando algumas das tecnologias que eu uso tais como: React.Js, HTML, CSS e Styled-Components, praticando a responsividade com medidas relativas e utilizando flex-box para deixar as páginas mais adaptáveis. 
 
 
 
