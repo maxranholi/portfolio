@@ -1,4 +1,6 @@
-<div align="center><h2>Sobre</h2></div>
+<div align="center>
+            <h2>Sobre</h2>
+   </div>
 
 
 Portfólio pessoal apresentando algumas das tecnologias que eu uso tais como: React.Js, HTML, CSS e Styled-Components.
